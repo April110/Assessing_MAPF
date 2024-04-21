@@ -1,0 +1,11 @@
+<launch>
+
+<!-- ditu -->
+    <arg name="map" default="d_0.yaml" />
+    <group ns="mapf_base">
+        
+        <node pkg="map_server" type="map_server" name="map_server" args="$(find icts_ros)/map/$(arg map)" />
+    </group>
+    <node pkg="icts_ros" type="icts_ros" name="icts_ros" output="screen"/>
+
+</launch>

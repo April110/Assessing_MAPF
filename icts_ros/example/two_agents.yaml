@@ -1,0 +1,24 @@
+# agents:
+# -   goal: [4, -2]
+#     name: 0
+#     start: [-4, -4]
+# -   goal: [-4,-4]
+#     name: 1
+#     start: [4, -2]
+
+agents:
+-   goal: [16, 11]
+    name: 0
+    start: [10, 8]
+-   goal: [18, 11]
+    name: 1
+    start: [0, 10]
+
+# agents:
+# -   goal: [50, 40]
+#     name: 0
+#     start: [50, 50]
+# -   goal: [50, 50]
+#     name: 1
+#     start: [50, 54]    icts的整数，另外俩加0.5算法的位置。
+
