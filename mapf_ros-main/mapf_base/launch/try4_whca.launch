@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- 1.load the low resolution map -->
+  <!-- <arg name="map" default="drwall_low_1.5.yaml" /> -->
+  <arg name="map" default="room_1.5.yaml" />
+  <group ns="mapf_base">
+    <node name="map_server" pkg="map_server" type="map_server"
+      args="$(find ridgeback_navigation)/maps/$(arg map)" />
+  </group>
+
+ 
+
+</launch>
